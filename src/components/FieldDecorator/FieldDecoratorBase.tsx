@@ -2,7 +2,7 @@ import { type LegacyRef, useMemo, type CSSProperties } from 'react';
 import { FormControl, FormLabel, FormHelperText, Tooltip } from '@mui/joy';
 import { useTheme } from '@mui/joy';
 import { HelpOutlined } from '@mui/icons-material';
-import { useOverflow, useOverrideProps } from '@iimm/shared';
+import { useOverflow, useOverrideProps } from '@iimm/react-shared';
 
 import type { FieldDecoratorBaseProps } from '@/types/index';
 import { useFieldDecoratorCommonInfo } from '../FieldCommonInfoProvider';

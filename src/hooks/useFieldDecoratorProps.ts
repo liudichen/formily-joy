@@ -1,6 +1,6 @@
 import { useField } from '@formily/react';
 import { isVoidField, type Field } from '@formily/core';
-import { useOverrideProps } from '@iimm/shared';
+import { useOverrideProps } from '@iimm/react-shared';
 
 import { splitFieldMessage } from '@/utils/index';
 import type { FieldDecoratorProps } from '@/types/index';
